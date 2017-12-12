@@ -1,0 +1,13 @@
+{% if product %}
+  <script>
+    let btnCart = document.getElementById('AddToCart-product-template');
+    btnCart.addEventListener('click', function () {
+	  let qty = document.querySelector('.product-form__item--quantity input').value;
+      pintrk('track', 'addtocart', {
+        value: {{ product.price | money_without_currency }},
+        order_quantity: qty,
+        currency: 'USD'
+      });      
+    });
+  </script>
+{% endif %}
