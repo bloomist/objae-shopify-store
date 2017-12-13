@@ -90,7 +90,7 @@ sections/password-footer.liquid:
 sections/password-header.liquid:
   development: 2017-11-27T11:04:34-08:00   96c731183fa1c3f2f87ca66501494897
 sections/product-template.liquid:
-  development: 2017-11-27T11:04:35-08:00   af76dab7f716f8f212581eb9e25bad4a
+  development: 2017-12-12T20:05:03-08:00   edd232adf3799d72937c4b179b49c517
 sections/quotes.liquid:
   development: 2017-11-27T11:04:35-08:00   b234ffff9a061befe87a0d69a121af1c
 sections/rich-text.liquid:
@@ -262,7 +262,7 @@ templates/customers/addresses.liquid:
 templates/customers/login.liquid:
   development: 2017-11-27T11:04:39-08:00   28ed5c6acf621c8b4523bbc178f97955
 templates/customers/order.liquid:
-  development: 2017-11-27T11:04:39-08:00   e6fc7179a5a3904781b3847d8ef8c0f7
+  development: 2017-12-12T20:25:28-08:00   1261ea6ca28ec60d4e684322a80aef3e
 templates/customers/register.liquid:
   development: 2017-12-11T22:45:22-08:00   e746092d7a054efc6cc28c133ae029d1
 templates/customers/reset_password.liquid:
