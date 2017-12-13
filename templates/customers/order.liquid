@@ -30,6 +30,8 @@
           </tr>
         </thead>
         <tbody>
+          <div id="as-root"></div><script>(function(e,t,n){var r,i=e.getElementsByTagName(t)[0];if(e.getElementById(n))return;r=e.createElement(t);r.id=n;r.src="//button.aftership.com/all.js";i.parentNode.insertBefore(r,i)})(document,"script","aftership-jssdk")</script>
+
           {% for line_item in order.line_items %}
           <tr id="{{ line_item.key }}" class="responsive-table__row" >
             <td data-label="{{ 'customer.order.product' | t }}">
@@ -40,9 +42,7 @@
                   {{ 'customer.order.fulfilled_at' | t: date: created_at }}
                   <div>
                     {% if line_item.fulfillment.tracking_url %}
-                      <a href="{{ line_item.fulfillment.tracking_url }}">
-                        {{ 'customer.order.track_shipment' | t }}
-                      </a>
+                      <div class="as-track-button" data-tracking-number="{{ line_item.fulfillment.tracking_number}}" data-domain="objae.aftership.com" data-size="small"></div>
                     {% endif %}
                     <div>
                       {{ line_item.fulfillment.tracking_company }}
