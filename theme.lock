@@ -14,7 +14,7 @@ assets/match-media.min.js:
 assets/password.js:
   development: 2017-11-27T11:04:36-08:00   d826da9cb223a44d53a0c34f457e92dc
 assets/theme.js:
-  development: 2017-12-15T05:08:18-08:00   78d2ddd85914e4c30edd30af38a4517e
+  development: 2017-12-19T23:55:05-08:00   b762f5a064c773b56dfce88c09349089
 assets/theme.scss.liquid:
   development: 2017-12-11T01:05:12-08:00   c57275f47b600232254942c79c2ff3b6
 assets/vendor.js:
@@ -90,13 +90,14 @@ sections/password-footer.liquid:
 sections/password-header.liquid:
   development: 2017-11-27T11:04:34-08:00   96c731183fa1c3f2f87ca66501494897
 sections/product-template.liquid:
-  development: 2017-12-15T05:06:54-08:00   4885a01c37f2b58e8f1b64b64b4ae6cd
+  development: 2017-12-19T23:54:16-08:00   edd232adf3799d72937c4b179b49c517
 sections/quotes.liquid:
   development: 2017-11-27T11:04:35-08:00   b234ffff9a061befe87a0d69a121af1c
 sections/rich-text.liquid:
   development: 2017-11-27T11:04:35-08:00   d25fb0e1575242ba565b129eff3dd1b8
 sections/slideshow.liquid:
-  development: 2017-11-27T11:04:35-08:00   b45e3880ca33f6ac6de7c2b5eb9dd40b
+  development: 2017-12-20T18:24:48-08:00   3e6c3c523dfb7d91573acd6d4e15e97d
+  production: 2017-12-20T18:27:33-08:00   3e6c3c523dfb7d91573acd6d4e15e97d
 snippets/app-adwords.liquid:
   development: 2017-12-12T02:11:15-08:00   8a299e751db7d2ff1cb7afc794318a58
 snippets/app-google-tag-manager-body.liquid:
