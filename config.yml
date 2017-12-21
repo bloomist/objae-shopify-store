@@ -1,4 +1,8 @@
-development:
+production:
   password: 49a52b2f54b08d44668ed8faa3be2a08
   theme_id: "12504203307"
+  store: objae1.myshopify.com
+development:
+  password: 49a52b2f54b08d44668ed8faa3be2a08
+  theme_id: "16261808171"
   store: objae1.myshopify.com
