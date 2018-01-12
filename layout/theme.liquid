@@ -5,6 +5,9 @@
   <meta name="google-site-verification" content="eBCeWQ7cXZF8qvYAkLT1D83gr9iv9kTi29rtfafUzgs" />
   {% include 'html-head' %}
   {{ content_for_header }}
+
+      {{ 'paymentfont.scss.css' | asset_url | stylesheet_tag }}
+    
 </head>
 
 <body class="template-{{ template | split: '.' | first }}">
