@@ -31,7 +31,7 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "favicon": "shopify:\/\/shop_images\/ObJae-Logo.svg.jpg",
+    "favicon": "shopify:\/\/shop_images\/Screen_Shot_2018-01-05_at_12.18.56_AM.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -51,7 +51,7 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/ObJae-Logo.svg_2227a8df-f97b-44b6-9e63-6c90814c08c7.png",
+          "logo": "shopify:\/\/shop_images\/ObJae_Logo.JPG",
           "logo_max_width": "100",
           "main_linklist": "main-menu",
           "message": false,
@@ -68,10 +68,10 @@
           "image": "shopify:\/\/shop_images\/fat-plants-2734948_1920.jpg",
           "alignment": "center",
           "title": "Nature-themed home decor curated with care",
-          "text": "<p>Join our growing community at&nbsp;<a href=\"https:\/\/instagram.com\/myobjae\" title=\"https:\/\/instagram.com\/myobjae\">#myobjae<\/a><\/p>",
+          "text": "",
           "hero_size": "medium",
           "text_size": "large",
-          "button_label": "See our products",
+          "button_label": "See our full collection",
           "button_link": "shopify:\/\/collections\/all"
         }
       },
@@ -92,7 +92,7 @@
           "image": "shopify:\/\/shop_images\/plant_prints_product-image-470925900_1024x1024_2x_0bebae27-963d-4563-b8df-f3874d279b6b.jpg",
           "layout": "left",
           "title": "Welcome to Objae!",
-          "text": "<p>We are a small but nimble team that curates the best in home decor at affordable prices. Whether looking to furnish your new home, spruce up your existing pad, or just looking for a gift, we are happy to help.<\/p>\n<p><\/p>\n<p>And be sure to sign up for our email updates to keep up with the latest additions to our collection AND get 20% off your first order.&nbsp;&nbsp;<\/p>\n<p><\/p>\n<p>Note also that all US domestic orders over $20 enjoy free shipping.<\/p>\n<p><\/p>\n<p>Contact us&nbsp;at <a href=\"mailto:support@objae.com\" title=\"mailto:support@objae.com\">support@objae.com<\/a>, or one of our social channels, we're keen to hear your feedback and suggestions, or if you're just looking to talk!<\/p>",
+          "text": "<p>We are a small but nimble team that curates the best in home decor at affordable prices. Whether looking to furnish your new home, spruce up your existing pad, or just looking for a gift, we are happy to help.<\/p>\n<p><\/p>\n<p>And be sure to <a href=\"https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?a=KZYE8e&amp;g=Nt7LfQ\" title=\"https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?a=KZYE8e&amp;g=Nt7LfQ\">sign up for our email updates<\/a> to keep up with the latest additions to our collection AND get 20% off your first order.&nbsp;&nbsp;<\/p>\n<p><\/p>\n<p>Note also that all US domestic orders over $20 enjoy free shipping.<\/p>\n<p><\/p>\n<p>Contact us&nbsp;at <a href=\"mailto:support@objae.com\" title=\"mailto:support@objae.com\">support@objae.com<\/a>, or one of our <a href=\"https:\/\/www.instagram.com\/myobjae\/\" title=\"https:\/\/www.instagram.com\/myobjae\/\">social channels<\/a>, we're keen to hear your feedback and suggestions, or if you're just looking to talk!<\/p>",
           "button_label": "Contact ObJae",
           "button_link": "mailto:support@objae.com"
         }
@@ -153,13 +153,60 @@
           "blog_show_date": true,
           "show_share_buttons": true
         }
+      },
+      "1513611032353": {
+        "type": "slideshow",
+        "blocks": {
+          "1514941917592": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2018-01-02_at_8.16.18_PM.png",
+              "alignment": "top",
+              "title": "New Year, New Home Decor:",
+              "subheading": "4 Simple Accents That Can Change the Feel of a Room For Less Than $30",
+              "link": "https:\/\/objae.com\/blogs\/trends\/new-year-new-home-decor"
+            }
+          },
+          "1513611032353-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Japanese-Modern-Art-Jane-White-Ceramic-Vase-Flower-Handmade-Craft-Gift-Room-Home-Furnishing-Home-Decoration.jpg",
+              "alignment": "top",
+              "title": "Now featuring: Kaori handmade ceramic vases",
+              "subheading": "Check out the set",
+              "link": "shopify:\/\/collections\/kaori-handmade-ceramic-vases"
+            }
+          },
+          "1513611032353-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fat-plants-2734948_1920.jpg",
+              "alignment": "top",
+              "title": "Nature-themed home decor curated with care",
+              "subheading": "Follow us on Instagram",
+              "link": "https:\/\/www.instagram.com\/myobjae\/"
+            }
+          }
+        },
+        "block_order": [
+          "1514941917592",
+          "1513611032353-0",
+          "1513611032353-1"
+        ],
+        "settings": {
+          "autoplay": true,
+          "autoplay_speed": "8000",
+          "slideshow_height": "small",
+          "text_size": "medium"
+        }
       }
     },
     "content_for_index": [
-      "hero",
+      "1513611032353",
       "featured-collections",
       "feature-row",
-      "1511810026996"
+      "1511810026996",
+      "hero"
     ]
   },
   "presets": {
