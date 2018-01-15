@@ -351,7 +351,7 @@ snippets/image-style.liquid:
   development: 2017-12-20T01:38:57-08:00   2d807ad1f4831d306d8e190b89d45c00
   production: 2017-11-27T11:04:39-08:00   2d807ad1f4831d306d8e190b89d45c00
 snippets/klaviyo-form.liquid:
-  development: 2017-12-20T01:38:57-08:00   d0af1e150212d7ad24ea5f24aa7c250b
+  development: 2018-01-15T01:30:57-08:00   ffa9a49a2e6f782bd0d071fa70746940
   production: 2017-12-11T23:35:22-08:00   d0af1e150212d7ad24ea5f24aa7c250b
 snippets/no-blocks.liquid:
   development: 2017-12-20T01:38:57-08:00   0cb7d758b6df0feb07ae5804b4b627fa

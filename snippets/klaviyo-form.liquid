@@ -8,8 +8,8 @@
     </span>
   </div>
   <div class="klaviyo_messages">
-    <div class="success_message" style="display:none;"></div>
-    <div class="error_message" style="display:none;"></div>
+    <div class="success_message form--success" style="display: none; padding: 0.75rem 1rem;"></div>
+    <div class="error_message label--error" style="display:none; padding-top: 0.5rem;"></div>
   </div>
 </form>
 <style type="text/css">
@@ -38,4 +38,12 @@
   KlaviyoSubscribe.attachToForms('#email_signup', {
     hide_form_on_success: true
   });
+</script>
+<script>
+  {% comment %} GA event for newsletter subscription {% endcomment %}
+  document.onreadystatechange = function () {
+    if (document.readyState == 'interactive') {
+      document.querySelector('.klaviyo_submit_button').addEventListener('click', function() { ga('send', 'event', 'Button', 'Click', 'Subscribe'); }, false);
+    }
+  }
 </script>
