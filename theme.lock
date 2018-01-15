@@ -58,7 +58,7 @@ layout/password.liquid:
   production: 2017-11-27T11:04:36-08:00   6351674ea67c53e01643a5bea02f7d0a
 layout/theme.liquid:
   development: 2017-12-20T01:38:55-08:00   8516a4d5cbbbaeb4fb0377055706f5dd
-  production: 2018-01-11T15:23:26-08:00   fdd9ef120f27252c230c8d3db975932c
+  production: 2018-01-15T01:38:46-08:00   8516a4d5cbbbaeb4fb0377055706f5dd
 locales/de.json:
   development: 2017-12-20T01:38:55-08:00   b7cd7749b0a0d9df967227ee73bcbb7f
   production: 2017-11-27T11:04:36-08:00   b7cd7749b0a0d9df967227ee73bcbb7f
@@ -352,7 +352,7 @@ snippets/image-style.liquid:
   production: 2017-11-27T11:04:39-08:00   2d807ad1f4831d306d8e190b89d45c00
 snippets/klaviyo-form.liquid:
   development: 2018-01-15T01:30:57-08:00   ffa9a49a2e6f782bd0d071fa70746940
-  production: 2017-12-11T23:35:22-08:00   d0af1e150212d7ad24ea5f24aa7c250b
+  production: 2018-01-15T01:36:42-08:00   ffa9a49a2e6f782bd0d071fa70746940
 snippets/no-blocks.liquid:
   development: 2017-12-20T01:38:57-08:00   0cb7d758b6df0feb07ae5804b4b627fa
   production: 2017-11-27T11:04:39-08:00   0cb7d758b6df0feb07ae5804b4b627fa
