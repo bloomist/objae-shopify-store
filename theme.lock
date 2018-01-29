@@ -57,7 +57,7 @@ layout/password.liquid:
   development: 2017-12-20T01:38:55-08:00   6351674ea67c53e01643a5bea02f7d0a
   production: 2017-11-27T11:04:36-08:00   6351674ea67c53e01643a5bea02f7d0a
 layout/theme.liquid:
-  development: 2017-12-20T01:38:55-08:00   8516a4d5cbbbaeb4fb0377055706f5dd
+  development: 2018-01-25T20:31:22-08:00   8516a4d5cbbbaeb4fb0377055706f5dd
   production: 2018-01-15T01:38:46-08:00   8516a4d5cbbbaeb4fb0377055706f5dd
 locales/de.json:
   development: 2017-12-20T01:38:55-08:00   b7cd7749b0a0d9df967227ee73bcbb7f
@@ -120,8 +120,8 @@ sections/footer.liquid:
   development: 2017-12-20T01:38:47-08:00   0773055feefc226c0f8770c9fc9aed20
   production: 2017-12-09T07:43:30-08:00   0773055feefc226c0f8770c9fc9aed20
 sections/header.liquid:
-  development: 2017-12-20T01:38:47-08:00   bbef6b2a58734e1b7b67c6c3ce076185
-  production: 2017-11-27T11:04:34-08:00   bbef6b2a58734e1b7b67c6c3ce076185
+  development: 2018-01-28T17:51:31-08:00   fdf12e6ea0afbf864c372c5cf5abc3e6
+  production: 2018-01-28T17:54:35-08:00   fdf12e6ea0afbf864c372c5cf5abc3e6
 sections/hero.liquid:
   development: 2017-12-20T01:38:47-08:00   d45cf37312b64d6e7511bdba56256758
   production: 2017-11-27T11:04:34-08:00   d45cf37312b64d6e7511bdba56256758
