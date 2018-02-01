@@ -74,7 +74,10 @@ function SpreadrShowButton()
 {
   var Spreadraddtocartform = document.querySelector("form[action='/cart/add']");
   var Spreadraddtocartbutton = Spreadraddtocartform.querySelector("[type='submit']");
-  var Spreadrlinkbutton = document.getElementById("SpreadrLink"); 
+  var Spreadrlinkbutton = document.getElementById("SpreadrLink");
+  var Spreadrdisclaimer = document.createElement("p");
+  Spreadrdisclaimer.innerHTML = "* This item is purchased through Amazon. ObJae promotions are valid only for products purchased on the ObJae website.";
+  Spreadrdisclaimer.setAttribute("style", "font-size: 0.75rem;");
 
 //code for special themes
   if((Spreadraddtocartbutton === undefined) || (Spreadraddtocartbutton === null) || (Spreadraddtocartbutton === ""))
@@ -114,6 +117,8 @@ function SpreadrShowButton()
           window.attachEvent("onload", findlocation)
       }
     }
+  // Add promo disclaimer text
+  Spreadraddtocartform.append(Spreadrdisclaimer);
 }
 
 function SetAffiliateTags()
