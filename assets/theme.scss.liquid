@@ -1634,9 +1634,23 @@ ol {
     }
   }
 
-  a:not(.btn) {
+  a {
     border-bottom: 1px solid currentColor;
     padding-bottom: 1px;
+  }
+
+  .link--img, .link--btn {
+    border-bottom: 0;
+  }
+
+  .link--img {
+    padding-bottom: 0;
+  }
+
+  .link--btn {
+    border: 2px solid black;
+    color: black;
+    padding: 0.5rem 0.75rem;
   }
 }
 
