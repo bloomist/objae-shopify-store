@@ -150,8 +150,8 @@ sections/password-header.liquid:
   development: 2017-12-20T01:38:47-08:00   96c731183fa1c3f2f87ca66501494897
   production: 2017-11-27T11:04:34-08:00   96c731183fa1c3f2f87ca66501494897
 sections/product-template.liquid:
-  development: 2018-02-04T19:42:37-08:00   11f467763c7bf9ab6b7d02c02fea768d
-  production: 2018-02-04T19:45:13-08:00   11f467763c7bf9ab6b7d02c02fea768d
+  development: 2018-02-08T23:36:38-08:00   4bbd61df6f43f8298e274c95e4b12afc
+  production: 2018-02-08T23:42:49-08:00   4bbd61df6f43f8298e274c95e4b12afc
 sections/quotes.liquid:
   development: 2017-12-20T01:38:47-08:00   b234ffff9a061befe87a0d69a121af1c
   production: 2017-11-27T11:04:35-08:00   b234ffff9a061befe87a0d69a121af1c
@@ -383,9 +383,15 @@ snippets/social-sharing.liquid:
 snippets/spreadr-custom.liquid:
   development: 2017-12-20T01:38:57-08:00   02fa2604d3705606db2a02d71400268e
   production: 2017-12-13T21:09:19-08:00   02fa2604d3705606db2a02d71400268e
+snippets/spreadr-reviews.liquid:
+  development: 2018-02-08T23:39:47-08:00   7e7819d57f9d43291591c5b668f5e74d
+  production: 2018-02-08T23:42:47-08:00   7e7819d57f9d43291591c5b668f5e74d
 snippets/spreadr.liquid:
   development: 2018-01-31T19:57:41-08:00   61aa8ad62ab0fa51376cbcaf9047b868
   production: 2018-01-31T20:07:55-08:00   61aa8ad62ab0fa51376cbcaf9047b868
+snippets/yotpo-reviews.liquid:
+  development: 2018-02-08T23:34:22-08:00   8074aa3d127f2d0a40dbb418dc4c0e96
+  production: 2018-02-08T23:42:47-08:00   8074aa3d127f2d0a40dbb418dc4c0e96
 templates/404.liquid:
   development: 2017-12-20T01:38:57-08:00   805b16263cdf5c85be9c507ad6b03623
   production: 2017-11-27T11:04:39-08:00   805b16263cdf5c85be9c507ad6b03623
@@ -441,8 +447,8 @@ templates/password.liquid:
   development: 2017-12-20T01:38:58-08:00   30d1743d26765ce8c3fa53a3fdf9524f
   production: 2017-11-27T11:04:39-08:00   30d1743d26765ce8c3fa53a3fdf9524f
 templates/product.liquid:
-  development: 2017-12-20T01:38:58-08:00   646298bffc6aa302a0f35e9c418eedda
-  production: 2017-12-11T22:14:17-08:00   646298bffc6aa302a0f35e9c418eedda
+  development: 2018-02-08T23:36:32-08:00   7ea394dfd0817d288950ad89bea9724d
+  production: 2018-02-08T23:42:48-08:00   7ea394dfd0817d288950ad89bea9724d
 templates/search.liquid:
   development: 2017-12-20T01:38:58-08:00   2336fd08b273d4ecd250af1738065b27
   production: 2017-12-11T22:28:58-08:00   2336fd08b273d4ecd250af1738065b27
