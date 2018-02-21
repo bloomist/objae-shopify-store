@@ -39,7 +39,7 @@ assets/theme.js:
   development: 2018-02-01T22:35:24-08:00   1e6b01573ac0b81eb6489046e848e517
   production: 2018-02-01T22:49:42-08:00   1e6b01573ac0b81eb6489046e848e517
 assets/theme.scss.liquid:
-  development: 2018-02-04T19:50:53-08:00   29a84c90fb80431c91c6d01514ef3c58
+  development: 2018-02-12T19:08:15-08:00   97c3581144eda3aa354645cde141eb25
   production: 2018-02-04T19:52:45-08:00   29a84c90fb80431c91c6d01514ef3c58
 assets/vendor.js:
   development: 2017-12-20T01:38:54-08:00   cb7c4217c9b6feb844647b361accfe6c
@@ -120,7 +120,7 @@ sections/footer.liquid:
   development: 2017-12-20T01:38:47-08:00   0773055feefc226c0f8770c9fc9aed20
   production: 2017-12-09T07:43:30-08:00   0773055feefc226c0f8770c9fc9aed20
 sections/header.liquid:
-  development: 2018-01-28T17:51:31-08:00   fdf12e6ea0afbf864c372c5cf5abc3e6
+  development: 2018-02-12T19:07:35-08:00   07bac3fb800f9530b104d36076ca96d8
   production: 2018-01-28T17:54:35-08:00   fdf12e6ea0afbf864c372c5cf5abc3e6
 sections/hero.liquid:
   development: 2017-12-20T01:38:47-08:00   d45cf37312b64d6e7511bdba56256758
@@ -387,8 +387,8 @@ snippets/spreadr-reviews.liquid:
   development: 2018-02-08T23:39:47-08:00   7e7819d57f9d43291591c5b668f5e74d
   production: 2018-02-08T23:42:47-08:00   7e7819d57f9d43291591c5b668f5e74d
 snippets/spreadr.liquid:
-  development: 2018-01-31T19:57:41-08:00   61aa8ad62ab0fa51376cbcaf9047b868
-  production: 2018-01-31T20:07:55-08:00   61aa8ad62ab0fa51376cbcaf9047b868
+  development: 2018-02-20T18:12:41-08:00   cc5e432bccd8a9f770680a174cc939c3
+  production: 2018-02-20T18:14:55-08:00   cc5e432bccd8a9f770680a174cc939c3
 snippets/yotpo-reviews.liquid:
   development: 2018-02-08T23:34:22-08:00   8074aa3d127f2d0a40dbb418dc4c0e96
   production: 2018-02-08T23:42:47-08:00   8074aa3d127f2d0a40dbb418dc4c0e96
