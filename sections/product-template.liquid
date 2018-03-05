@@ -166,24 +166,31 @@
               {% endfor %}
             </select>
 
-            {% if section.settings.show_quantity_selector %}
-              <div class="product-form__item product-form__item--quantity">
-                <label for="Quantity">{{ 'products.product.quantity' | t }}</label>
-                <input type="number" id="Quantity" name="quantity" value="1" min="1" class="product-form__input" pattern="[0-9]*">
-              </div>
+            {% include 'spreadr-custom' %}
+            {% if enable_spreadr == false %}
+              {% if section.settings.show_quantity_selector %}
+                <div class="product-form__item product-form__item--quantity">
+                  <label for="Quantity">{{ 'products.product.quantity' | t }}</label>
+                  <input type="number" id="Quantity" name="quantity" value="1" min="1" class="product-form__input" pattern="[0-9]*">
+                </div>
+              {% endif %}
             {% endif %}
 
             <div class="product-form__item product-form__item--submit">
-              <button type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn product-form__cart-submit{% if product.options.size == 1 and product.variants[0].title == 'Default Title' %} product-form__cart-submit--small{% endif %}">
-                <span id="AddToCartText-{{ section.id }}">
-                  {% unless current_variant.available %}
-                    {{ 'products.product.sold_out' | t }}
-                  {% else %}
-                    {{ 'products.product.add_to_cart' | t }}
-                  {% endunless %}
-                </span>
-              </button>
-              {% include 'spreadr' %}
+              {% if enable_spreadr == true %}
+                <a id="{{ spreadr_link_id }}" name="SpreadrLink" href="{{ spreadr_redirect_url }}" target="_blank" class="btn" rel="nofollow" > {% if current_variant.available %} {{ spreadr_button_text }}{% else %} {{ 'products.product.sold_out' | t }} {% endif %}</a>
+                <p style="font-size: 0.75rem; margin-top: 2rem;">* This item is purchased through Amazon. ObJae promotions are valid only for products purchased on the ObJae website.</p>
+              {% else %}
+                <button type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn product-form__cart-submit{% if product.options.size == 1 and product.variants[0].title == 'Default Title' %} product-form__cart-submit--small{% endif %}">
+                  <span id="AddToCartText-{{ section.id }}">
+                    {% unless current_variant.available %}
+                      {{ 'products.product.sold_out' | t }}
+                    {% else %}
+                      {{ 'products.product.add_to_cart' | t }}
+                    {% endunless %}
+                  </span>
+                </button>
+              {% endif %}
             </div>
           </form>
 
@@ -198,13 +205,14 @@
         {% endif %}
 
         <a href="/pages/returns-and-refunds">Returns &amp; refunds</a>
+
+        {% include 'spreadr-reviews' %}
+        {% include 'yotpo-reviews' %}
+
       </div>
     </div>
   </div>
 </div>
-
-{% include 'spreadr-reviews' %}
-{% include 'yotpo-reviews' %}
 
 {% if collection %}
   <div class="text-center return-link-wrapper">
