@@ -39,8 +39,8 @@ assets/theme.js:
   development: 2018-02-01T22:35:24-08:00   1e6b01573ac0b81eb6489046e848e517
   production: 2018-02-01T22:49:42-08:00   1e6b01573ac0b81eb6489046e848e517
 assets/theme.scss.liquid:
-  development: 2018-02-20T19:39:10-08:00   0fa981445994d4a8d4adcc8c3dce074b
-  production: 2018-02-20T19:43:19-08:00   0fa981445994d4a8d4adcc8c3dce074b
+  development: 2018-03-19T09:16:14-07:00   6c653ed74c6ff6b94dc75a26f72beecc
+  production: 2018-03-19T09:17:28-07:00   6c653ed74c6ff6b94dc75a26f72beecc
 assets/vendor.js:
   development: 2017-12-20T01:38:54-08:00   cb7c4217c9b6feb844647b361accfe6c
   production: 2017-11-27T11:04:36-08:00   cb7c4217c9b6feb844647b361accfe6c
@@ -150,8 +150,8 @@ sections/password-header.liquid:
   development: 2017-12-20T01:38:47-08:00   96c731183fa1c3f2f87ca66501494897
   production: 2017-11-27T11:04:34-08:00   96c731183fa1c3f2f87ca66501494897
 sections/product-template.liquid:
-  development: 2018-03-04T18:46:12-08:00   c0319055f59e486a676e36d9ea01f23c
-  production: 2018-03-04T18:49:44-08:00   c0319055f59e486a676e36d9ea01f23c
+  development: 2018-03-19T09:13:08-07:00   ad0ec4746cd93345ddb8804b51be0d8e
+  production: 2018-03-19T09:17:26-07:00   ad0ec4746cd93345ddb8804b51be0d8e
 sections/quotes.liquid:
   development: 2017-12-20T01:38:47-08:00   b234ffff9a061befe87a0d69a121af1c
   production: 2017-11-27T11:04:35-08:00   b234ffff9a061befe87a0d69a121af1c
