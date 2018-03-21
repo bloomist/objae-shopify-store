@@ -150,8 +150,8 @@ sections/password-header.liquid:
   development: 2017-12-20T01:38:47-08:00   96c731183fa1c3f2f87ca66501494897
   production: 2017-11-27T11:04:34-08:00   96c731183fa1c3f2f87ca66501494897
 sections/product-template.liquid:
-  development: 2018-03-19T09:13:08-07:00   ad0ec4746cd93345ddb8804b51be0d8e
-  production: 2018-03-19T09:17:26-07:00   ad0ec4746cd93345ddb8804b51be0d8e
+  development: 2018-03-20T19:45:11-07:00   ff200acdf7fcb94b3f5a0e7332e607e1
+  production: 2018-03-20T19:45:41-07:00   ff200acdf7fcb94b3f5a0e7332e607e1
 sections/quotes.liquid:
   development: 2017-12-20T01:38:47-08:00   b234ffff9a061befe87a0d69a121af1c
   production: 2017-11-27T11:04:35-08:00   b234ffff9a061befe87a0d69a121af1c
