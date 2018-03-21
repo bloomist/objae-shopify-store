@@ -39,8 +39,8 @@ assets/theme.js:
   development: 2018-02-01T22:35:24-08:00   1e6b01573ac0b81eb6489046e848e517
   production: 2018-02-01T22:49:42-08:00   1e6b01573ac0b81eb6489046e848e517
 assets/theme.scss.liquid:
-  development: 2018-03-19T09:16:14-07:00   6c653ed74c6ff6b94dc75a26f72beecc
-  production: 2018-03-19T09:17:28-07:00   6c653ed74c6ff6b94dc75a26f72beecc
+  development: 2018-03-20T20:03:10-07:00   0fa981445994d4a8d4adcc8c3dce074b
+  production: 2018-03-20T20:08:31-07:00   0fa981445994d4a8d4adcc8c3dce074b
 assets/vendor.js:
   development: 2017-12-20T01:38:54-08:00   cb7c4217c9b6feb844647b361accfe6c
   production: 2017-11-27T11:04:36-08:00   cb7c4217c9b6feb844647b361accfe6c
@@ -150,8 +150,8 @@ sections/password-header.liquid:
   development: 2017-12-20T01:38:47-08:00   96c731183fa1c3f2f87ca66501494897
   production: 2017-11-27T11:04:34-08:00   96c731183fa1c3f2f87ca66501494897
 sections/product-template.liquid:
-  development: 2018-03-20T19:45:11-07:00   ff200acdf7fcb94b3f5a0e7332e607e1
-  production: 2018-03-20T19:45:41-07:00   ff200acdf7fcb94b3f5a0e7332e607e1
+  development: 2018-03-20T20:05:09-07:00   e2ca7c2e9a471f25a7dac62fa0ac3154
+  production: 2018-03-20T20:08:30-07:00   e2ca7c2e9a471f25a7dac62fa0ac3154
 sections/quotes.liquid:
   development: 2017-12-20T01:38:47-08:00   b234ffff9a061befe87a0d69a121af1c
   production: 2017-11-27T11:04:35-08:00   b234ffff9a061befe87a0d69a121af1c
@@ -432,7 +432,7 @@ templates/gift_card.liquid:
   development: 2017-12-20T01:38:58-08:00   16c95e9922ddd30e37f0cf018e86597c
   production: 2017-11-27T11:04:39-08:00   16c95e9922ddd30e37f0cf018e86597c
 templates/index.liquid:
-  development: 2018-01-31T19:30:34-08:00   80f4fc4d43004ac98c141e05d18a0e56
+  development: 2018-03-20T20:07:38-07:00   80f4fc4d43004ac98c141e05d18a0e56
   production: 2018-01-31T19:34:25-08:00   80f4fc4d43004ac98c141e05d18a0e56
 templates/list-collections.liquid:
   development: 2017-12-20T01:38:58-08:00   d42f6d6957169811896f646709d353d9

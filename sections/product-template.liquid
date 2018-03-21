@@ -98,6 +98,7 @@
           {% endif %}
         </div>
       {% endif %}
+
     </div>
 
     <div class="grid__item {{ product_description_width }}">
@@ -208,14 +209,16 @@
           <a href="/pages/returns-and-refunds">Returns &amp; refunds</a>
         </div>
 
-        <div class="product-footer"></div>
-
       </div>
     </div>
   </div>
 </div>
 
-<div class="reviews">
+<div class="page-width">
+  <div class="product-crosssell"></div>
+</div>
+
+<div class="reviews page-width">
   {% include 'spreadr-reviews' %}
   {% include 'yotpo-reviews' %}
 </div>
@@ -228,6 +231,10 @@
     </a>
   </div>
 {% endif %}
+
+<div class="page-width">
+  <div class="product-recentlyviewed"></div>
+</div>
 
 {% unless product == empty %}
   <script type="application/json" id="ProductJson-{{ section.id }}">
